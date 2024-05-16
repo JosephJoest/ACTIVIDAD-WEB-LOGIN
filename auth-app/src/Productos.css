@@ -1,0 +1,30 @@
+/* Productos.css */
+
+/* Estilos generales */
+.productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Estilo de cada producto */
+.producto-card {
+    width: 300px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.producto-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.producto-description {
+    font-size: 14px;
+    margin-top: 10px;
+}
